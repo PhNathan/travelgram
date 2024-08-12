@@ -17,16 +17,37 @@
   --font-primary: "Poppins", sans-serif;
 
   --heading1: 700 2em/125% var(--font-primary);
-  --paragraph-md: 400 0.875em/175% var(--font-primary);
-  --paragraph-sm: 400 0.75em/175% var(--font-primary);
-  --default-font: 400 1em/175% var(--font-primary);
+  --paragraph-md: 0.875em/175% var(--font-primary);
+  --paragraph-sm: 0.75em/175% var(--font-primary);
+  --default-text: 1em/175% var(--font-primary);
 }
 
 body {
   color: var(--text-color-secondary);
   background-color: var(--bg-color);
+  font: var(--default-text);
 }
 
 p {
   font: var(--paragraph-md);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+.container {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
 }
