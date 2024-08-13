@@ -17,8 +17,8 @@
   --font-primary: "Poppins", sans-serif;
 
   --heading1: 700 2em/125% var(--font-primary);
-  --paragraph-md: 0.875em/175% var(--font-primary);
-  --paragraph-sm: 0.75em/175% var(--font-primary);
+  --paragraph-md: 0.875em/170% var(--font-primary);
+  --paragraph-sm: 0.75em/170% var(--font-primary);
   --default-text: 1em/175% var(--font-primary);
 }
 
